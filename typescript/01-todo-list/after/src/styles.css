@@ -1,0 +1,39 @@
+#new-todo-form {
+  display: flex;
+  flex-direction: column;
+}
+
+#new-todo-form > * {
+  margin: 0.15rem;
+}
+
+#list {
+  padding: 0;
+}
+
+.list-item {
+  list-style: none;
+}
+
+.list-item-label:hover,
+.label-input:hover {
+  cursor: pointer;
+}
+
+.list-item-label:hover > .label-text {
+  color: #333;
+  text-decoration: line-through;
+}
+
+.label-input:checked ~ .label-text {
+  text-decoration: line-through;
+  color: #aaa;
+}
+
+.delete-btn {
+  margin-left: 0.5rem;
+}
+
+button {
+  cursor: pointer;
+}
