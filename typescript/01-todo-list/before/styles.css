@@ -4,7 +4,7 @@
 }
 
 #new-todo-form > * {
-  margin: .15rem;
+  margin: 0.15rem;
 }
 
 #list {
@@ -16,22 +16,22 @@
 }
 
 .list-item-label:hover,
-[data-list-item-checkbox]:hover {
+.label-input:hover {
   cursor: pointer;
 }
 
-.list-item-label:hover > [data-list-item-text] {
+.list-item-label:hover > .label-text {
   color: #333;
   text-decoration: line-through;
 }
 
-[data-list-item-checkbox]:checked ~ [data-list-item-text] {
+.label-input:checked ~ .label-text {
   text-decoration: line-through;
-  color: #AAA;
+  color: #aaa;
 }
 
-[data-button-delete] {
-  margin-left: .5rem;
+.delete-btn {
+  margin-left: 0.5rem;
 }
 
 button {
