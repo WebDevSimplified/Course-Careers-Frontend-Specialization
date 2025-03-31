@@ -64,6 +64,7 @@ The colors you use do not need to be 100% perfect matches to the colors used in 
    - The `name` field is required.
    - The `allDay` field should be a checkbox that when checked will disable the `startTime` and `endTime` fields.
    - The `startTime` must be before the `endTime` and is required if `allDay` is not checked.
+   - The `endTime` is required if `allDay` is not checked.
    - The `color` field should have the options `red`, `blue`, and `green`.
 3. Render events in the calendar view.
    - Events should be sorted with all day events first and then by start date.
